@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake Game
-        uses: Platane/snk@master
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: TharaniTamilpandithan
           outputs: dist/github-contribution-grid-snake.svg
